@@ -1,0 +1,201 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "badge": "",
+      "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
+      "icon": "home",
+      "slug": "dashboard-analytics",
+      "role":""
+    },
+
+    {
+      "navheader": "Apps & Pages",
+      "slug": "",
+      "role":""
+    },
+    {
+        "name": "Users",
+        "icon": "user",
+        "slug": "",
+        "role":"",
+        "submenu": [
+            {
+                "url": "admin/admins",
+                "name": "admins",
+                "icon": "circle",
+                "slug": "app-user-list",
+                "role":"read-users"
+
+            },
+            {
+                "url": "admin/users",
+                "name": "Instructors",
+                "icon": "circle",
+                "slug": "app-user-list",
+                "role":"read-users"
+            },
+            {
+                "url": "admin/students",
+                "name": "students",
+                "icon": "circle",
+                "slug": "app-user-list",
+                "role":"read-students"
+            },
+            {
+                "url": "admin/logins/logs",
+                "name": "Logins Logs",
+                "icon": "unlock",
+                "slug": "logins-logs-user",
+                "role":"read-students"
+            }
+        ]
+    },
+
+      {
+          "name": "attendance",
+          "icon": "user",
+          "slug": "",
+          "role":"",
+          "submenu": [
+              {
+                  "url": "admin/attendance?attendance_type=room",
+                  "name": "room-attendance",
+                  "icon": "circle",
+                  "slug": "app-attendance-list",
+                  "role":"read-attendance"
+
+              }
+
+          ]
+      },
+    {
+        "name": "Roles & Permission",
+        "icon": "shield",
+        "url": "/admin/roles",
+        "slug": "roles",
+        "role":"read-roles"
+    },
+      {
+          "name": "Gift & Store",
+          "icon": "gift",
+          "url": "/admin/gifts/list",
+          "slug": "gift",
+          "role":"read-gifts",
+          "submenu": [
+              {
+                  "url": "/admin/gifts/list",
+                  "name": "gifts",
+                  "icon": "circle",
+                  "slug": "gifts",
+                  "role":"read-gifts"
+
+              },
+              {
+                  "url": "admin/gifts/redemptions",
+                  "name": "redemptions",
+                  "icon": "circle",
+                  "slug": "redemptions",
+                  "role":"read-gifts"
+
+              }
+
+          ]
+      },
+    {
+        "name": "Class-rooms",
+        "icon": "book-open",
+        "slug": "classrooms-all",
+        "role": "read-classroom",
+        "submenu": [
+            {
+                "url": "/admin/classrooms",
+                "name": "Class-rooms",
+                "icon": "circle",
+                "slug": "classrooms",
+                "role": "read-classroom"
+
+            },
+            {
+                "url": "/admin/rooms/list",
+                "name": "Rooms",
+                "icon": "circle",
+                "slug": "rooms",
+                "role": "read-classroom"
+            },
+            {
+                "url": "/admin/lessons/list",
+                "name": "Lessons",
+                "icon": "circle",
+                "slug": "lessons",
+                "role": "read-classroom"
+            }
+        ]
+    },
+    {
+        "name": "Quizzes & Exams",
+        "icon": "file-text",
+        "slug": "quiz",
+        "role": "read-quiz",
+        "submenu": [
+            {
+                "url": "/admin/quiz/list",
+                "name": "All Quizzes",
+                "icon": "circle",
+                "slug": "quiz",
+                "role": "read-quiz"
+            },
+            {
+                "url": "/admin/question-bank/list",
+                "name": "Question Banks",
+                "icon": "circle",
+                "slug": "question-bank",
+                "role": "read-question_bank"
+            },
+            {
+                "url": "/admin/question/list",
+                "name": "Questions",
+                "icon": "circle",
+                "slug": "lessons",
+                "role": "read-question"
+            },
+            {
+                "url": "/admin/category/list",
+                "name": "Category",
+                "icon": "circle",
+                "slug": "lessons",
+                "role": "read-category"
+            },
+            {
+                "url": "/admin/subcategory/list",
+                "name": "Sub Category",
+                "icon": "circle",
+                "slug": "subcategory",
+                "role": "read-subcategory"
+            }
+        ]
+    },
+    {
+        "name": "Dashboard-Coupons",
+        "icon": "airplay",
+        "url": "/admin/dashboard/coupons",
+        "slug": "dashboard-coupons",
+        "role":"read-coupons"
+    },
+      {
+          "name": "student_rank",
+          "icon": "shield",
+          "url": "/admin/get-student-classrank",
+          "slug": "student_rank",
+          "role":"read-student_rank"
+      },
+
+    {
+        "name": "Point-Settings",
+        "icon": "check-square",
+        "url": "/admin/point/settings",
+        "slug": "Point-Settings",
+        "role":"read-setting"
+    }
+  ]
+}

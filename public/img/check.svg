@@ -1,0 +1,4 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+<symbol viewBox="0 0 128 128" id="tick"><path d="M112.639844,0 L35.84,88.575 L17.9203125,69.82 L0,69.82 L35.84,128 L128,0 L112.639844,0 Z"></path></symbol>
+</svg>
+<svg class="check-icon rooms-icon">✔<use xlink:href="#tick"></svg>
